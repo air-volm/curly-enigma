@@ -423,4 +423,20 @@ h2 {
     font-size: 2em;
     margin-bottom: 20px;
     color: #333; /* ou #fff selon le fond */
+   }
+   
+   .contact-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f57c00;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 5px 0;
+}
+
+.contact-icon .icon {
+  width: 18px;
+  height: 18px;
 }
